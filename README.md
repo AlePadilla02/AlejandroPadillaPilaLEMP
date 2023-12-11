@@ -12,3 +12,24 @@
 
 ## Introducción:
 ### En esta práctica realizaremos el lanzamiento de dos máquinas virtuales, donde una de ellas contendrá Apache y PHP con salida a internet, y la otra contendrá MariaDB sin salida a internet.
+
+
+## Configuración del balanceador web
+####
+
+## Configuración de la PilaLEMP
+
+### Configuración de los servidores web
+####
+
+### Configuración del servidor NFS y motor PHP-FPM
+####
+
+## Configuración del servidor de datos
+####
+
+## Conclusión
+####
+
+## Vídeo
+####
