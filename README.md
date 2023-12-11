@@ -3,7 +3,7 @@
 # Índice
 1. [Introducción](#introducción)
 2. [Configuración del balanceador web](#configuración-del-balanceador-web)
-3. [Configuración de la PilaLEMP](#instalación-de-apache-y-php)
+3. [Configuración de la PilaLEMP](#configuración-de-la-pilalemp)
    - [Configuración de los servidores web](#configuración-de-los-servidores-web)
    - [Configuración del servidor NFS y motor PHP-FPM](#configuración-del-servidor-nfs-y-motor-php-fpm)
 4. [Configuración del servidor de datos](#configuración-del-servidor-de-datos)
