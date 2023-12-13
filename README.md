@@ -7,8 +7,9 @@
    - [Configuración de los servidores web](#configuración-de-los-servidores-web)
    - [Configuración del servidor NFS y motor PHP-FPM](#configuración-del-servidor-nfs-y-motor-php-fpm)
 4. [Configuración del servidor de datos](#configuración-del-servidor-de-datos)
-5. [Conclusión](#conclusión)
-6. [Vídeo](#vídeo)
+5. [Instalación WordPress](#instalación-wordpress)
+6. [Conclusión](#conclusión)
+7. [Vídeo](#vídeo)
 
 ## Introducción:
 #### En esta práctica realizaremos el lanzamiento de una página de WordPress con una PilaLEMP a 3 capas , donde en la primera capa tendremos un balanceador nginx con la IP 192.168.3.5 en el backend, tendremos 2 servidores web con nginx con las IPs 192.168.3.6/192.168.2.6 y 192.168.3.7/192.168.2.8 además de un servidor NFS con motor php-fpm con las IPs 192.168.2.9/192.168.4.6 y por último un servidor de base de datos con mariadb con las IPs 192.168.2.10/192.168.4.5. A continucación, se va a realizar la configuración necesaria para poder desplegar nuestra aplicación comenzando por el balanceador web. 
@@ -71,6 +72,15 @@
 #### Además, hay que modificar el fichero 50-server.conf de mariadb y cmabiarle el bind-addresss por la IP de su tarjeta de red donde se comunica con los servidores web para el acceso a la base de datos:
 ![image](https://github.com/AlePadilla02/AlejandroPadillaPilaLEMP/assets/146703765/5f305e90-1f79-43e5-b62a-f90b5cbdb6bc)
 ![image](https://github.com/AlePadilla02/AlejandroPadillaPilaLEMP/assets/146703765/2481eb20-f3b5-4578-acc2-1c0179349cae)
+
+## Instalación WordPress:
+#### Hay que acceder desde la máquina anfitriona al WordPress para su instalación poniendo en la barra de búsqueda del navegador localhost y el puerto mapeado:
+![image](https://github.com/AlePadilla02/AlejandroPadillaPilaLEMP/assets/146703765/e4b33c3b-2d6f-4769-9264-27532a9d52cd)
+#### (No pude realizar la captura correcta de la instalación pero esto es lo que saldría)
+
+#### Y por último, crear el usuario administrador y acceder al WordPress para personalizarlo:
+![image](https://github.com/AlePadilla02/AlejandroPadillaPilaLEMP/assets/146703765/c6090c19-74d6-420b-9b42-b87cd78fa1c9)
+![image](https://github.com/AlePadilla02/AlejandroPadillaPilaLEMP/assets/146703765/68295e3d-7d91-460c-91e1-ef76dda2d876)
 
 
 ## Conclusión
